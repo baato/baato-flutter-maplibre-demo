@@ -12,10 +12,10 @@ if (flutterRoot == null) {
 }
 
 //for windows mapbox token setup
-def token = System.getenv('SDK_REGISTRY_TOKEN')
-if (token == null || token.empty) {
-    throw new Exception("SDK Registry token is null. See README.md for more information.")
-}
+// def token = System.getenv('SDK_REGISTRY_TOKEN')
+// if (token == null || token.empty) {
+//     throw new Exception("SDK Registry token is null. See README.md for more information.")
+// }
 
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
 if (flutterVersionCode == null) {

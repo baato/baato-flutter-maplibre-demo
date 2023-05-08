@@ -29,10 +29,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.5
 #  mapbox_gl: ^0.16.0
-  http: ^0.13.4
-  baato_api: ^1.0.2
-  url_launcher: ^6.1.4
-  fluttertoast: ^8.0.9
+  http: ^0.13.6
+  baato_api: ^1.0.3
+  url_launcher: ^6.1.10
+  fluttertoast: ^8.2.1
   maplibre_gl:
       git:
         url: https://github.com/m0nac0/flutter-maplibre-gl.git
