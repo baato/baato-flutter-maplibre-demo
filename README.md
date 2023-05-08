@@ -72,4 +72,22 @@ post_install do |installer|
       config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
   end
 end
+
+
+4. If you are getting issue with building with error
+Failure [INSTALL_PARSE_FAILED_MANIFEST_MALFORMED: Failed   
+parse during installPackageLI: Targeting S+ (version 31and above) requires that an explicit value for android:exported be defined when intent filters are present:
+
+Add android:exported="true" in AndroidManifest.xml file which looks as follow:
+
+<application
+//some code
+>
+   <activity
+    //other code
+     android:exported="true"  //add this line 
+    >
+    </activity>
+    
+</application>
 ```
