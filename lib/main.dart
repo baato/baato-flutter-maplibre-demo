@@ -14,7 +14,7 @@ void main() {
 
 class BaatoExampleApp extends StatelessWidget {
   /*Please add your baato-access-token here*/
-  static const String BAATO_ACCESS_TOKEN = "baato-access-token";
+  static const String BAATO_ACCESS_TOKEN = "bpk.eSHZ2rohCrTBIbuZ3YHxGfMzZZO8MAFLQ56dxWNjne2N";
 
   @override
   Widget build(BuildContext context) {
