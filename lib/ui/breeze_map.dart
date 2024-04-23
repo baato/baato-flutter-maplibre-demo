@@ -41,7 +41,10 @@ class _MyHomePageState extends State<MyHomePage> {
             onMapCreated: _onMapCreated,
             initialCameraPosition: const CameraPosition(
                 target: LatLng(27.7192873, 85.3238007), zoom: 14.0),
-            styleString: "https://api.baato.io/api/v1/styles/" + mapStyle + "?key=" + baatoAccessToken,
+            styleString: "https://api.baato.io/api/v1/styles/" +
+                mapStyle +
+                "?key=" +
+                baatoAccessToken,
           ),
           //add Baato logo
           Align(
@@ -50,7 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 35.0,
                 child: Container(
                   decoration: BoxDecoration(color: Colors.white70),
-                  child: Image.network("https://i.postimg.cc/k5DpLQKQ/baato-Logo.png"),
+                  child: Image.network(
+                      "https://i.postimg.cc/k5DpLQKQ/baato-Logo.png"),
                 ),
               ),
             ),
@@ -59,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Align(
             child: Container(
               decoration: BoxDecoration(color: Colors.white70),
-              padding: EdgeInsets.only(bottom: 2.0,right: 2.0),
+              padding: EdgeInsets.only(bottom: 2.0, right: 2.0),
               child: InkWell(
                 child: RichText(
                   text: TextSpan(
@@ -69,13 +73,17 @@ class _MyHomePageState extends State<MyHomePage> {
                       TextSpan(
                         text: "OpenStreetMap contributors",
                         style: TextStyle(
-                          color: Colors.purple, fontWeight: FontWeight.normal, decoration: TextDecoration.underline,),
+                          color: Colors.purple,
+                          fontWeight: FontWeight.normal,
+                          decoration: TextDecoration.underline,
+                        ),
                       ),
                     ],
                   ),
                 ),
                 onTap: () async {
-                  await launchUrlString("https://www.openstreetmap.org/copyright");
+                  await launchUrlString(
+                      "https://www.openstreetmap.org/copyright");
                 },
               ),
             ),

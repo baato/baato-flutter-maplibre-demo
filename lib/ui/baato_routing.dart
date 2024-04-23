@@ -40,7 +40,8 @@ class _BaatoDirectionsPageState extends State<BaatoDirectionsPage> {
 
     //show initial information
     Fluttertoast.showToast(
-        msg: "Tap on the map to select any two points to get routes between them...",
+        msg:
+            "Tap on the map to select any two points to get routes between them...",
         toastLength: Toast.LENGTH_LONG);
   }
 

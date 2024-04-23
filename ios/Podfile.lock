@@ -10,7 +10,7 @@ PODS:
     - MapLibreAnnotationExtension (~> 0.0.1-beta.2)
   - MapLibreAnnotationExtension (0.0.1-beta.2):
     - MapLibre (~> 5.12.0)
-  - Toast (4.0.0)
+  - Toast (4.1.1)
   - url_launcher_ios (0.0.1):
     - Flutter
 
@@ -40,14 +40,14 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/url_launcher_ios/ios"
 
 SPEC CHECKSUMS:
-  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  fluttertoast: 16fbe6039d06a763f3533670197d01fc73459037
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  fluttertoast: 9f2f8e81bb5ce18facb9748d7855bf5a756fe3db
   MapLibre: 5aa820115d91293a4d09e681e7470f88bd34b672
   maplibre_gl: 2a0ce99f40b3a133b0e8b40b5ef37e0562165399
   MapLibreAnnotationExtension: bc7f1041206218d7d24ba0908e3145cd54b86664
-  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
-  url_launcher_ios: 839c58cdb4279282219f5e248c3321761ff3c4de
+  Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
+  url_launcher_ios: 6116280ddcfe98ab8820085d8d76ae7449447586
 
-PODFILE CHECKSUM: 635cfc4127f320493a86881fcac6ec6c82fe568c
+PODFILE CHECKSUM: e4525733e9a9c4116ce2e52a64b3a0fc44ca6d9e
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2

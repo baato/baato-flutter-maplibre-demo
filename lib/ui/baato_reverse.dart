@@ -39,7 +39,8 @@ class _BaatoReversePageState extends State<BaatoReversePage> {
   void _onStyleLoaded() {
     // addImageFromAsset("assetImage", "assets/symbols/placeholder.png");
     Fluttertoast.showToast(
-        msg: "Tap on any point on the map to get location details of that point... ",
+        msg:
+            "Tap on any point on the map to get location details of that point... ",
         toastLength: Toast.LENGTH_LONG);
   }
 
@@ -101,7 +102,8 @@ class _BaatoReversePageState extends State<BaatoReversePage> {
       print("No result found");
     else {
       Fluttertoast.showToast(
-          msg: "Name: ${response.data![0].name} \nAddress: ${response.data![0].address}",
+          msg:
+              "Name: ${response.data![0].name} \nAddress: ${response.data![0].address}",
           toastLength: Toast.LENGTH_LONG);
     }
   }
